@@ -19,16 +19,16 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
         window.location.href = "MatiasAcevedo_page.html"; // Redirige a la página de
     } 
     
-    else if (username === '' && password === '') {
-        window.location.href = "empleado_page.html"; // Redirige a la página de
+     else if (username === 'Grupo1' && password === '1442025') {
+        window.location.href = "Grupo1.html"; // Redirige a la página de
     } 
     
-    else if (username === '' && password === '') {
-        window.location.href = "empleado_page.html"; // Redirige a la página de
+    else if (username === 'Grupo2' && password === '2025414') {
+        window.location.href = "Grupo2.html"; // Redirige a la página de
     }
     
-    else if (username === '' && password === '') {
-        window.location.href = "empleado_page.html"; // Redirige a la página de
+    else if (username === 'Grupo3' && password === '4202514') {
+        window.location.href = "Grupo3.html"; // Redirige a la página de
     }
 
     else if (username === '' && password === '') {
