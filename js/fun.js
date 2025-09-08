@@ -11,11 +11,11 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
         window.location.href = "admin_page.html"; // Redirige a la página del administrador
     } 
    
-    else if (username === 'Cristian' && password === 'Peralta') {
+    else if (username === 'Crisan' && password === 'Pe33lta') {
         window.location.href = "CristianPeralta_page.html"; // Redirige a la página del empleado cristian peralta
     }
     
-    else if (username === 'Matias' && password === 'Acevedo') {
+    else if (username === 'Maas' && password === 'Ace22do') {
         window.location.href = "MatiasAcevedo_page.html"; // Redirige a la página de
     } 
     
@@ -43,6 +43,7 @@ document.getElementById('loginForm').addEventListener('submit', (e) => {
         alert('Credenciales incorrectas. Intenta de nuevo.'); // Muestra una alerta en caso de error
     }
 });
+
 
 
 
